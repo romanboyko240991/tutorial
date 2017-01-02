@@ -1,2 +1,2 @@
 <?php
-echo array_sum([1, 2, 3]);
+echo array_sum(array_merge([1, 2, 3], range(100, 110)));
